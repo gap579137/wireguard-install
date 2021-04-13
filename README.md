@@ -1,16 +1,16 @@
 # WireGuard installer
 
-![Lint](https://github.com/angristan/wireguard-install/workflows/Lint/badge.svg)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=angristan.wireguard-install)
+![Lint](https://github.com/gap579137/wireguard-install/workflows/Lint/badge.svg)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=gap579137.wireguard-install)
 
 **This project is a bash script that aims to setup a [WireGuard](https://www.wireguard.com/) VPN on a Linux server, as easily as possible!**
 
 WireGuard is a point-to-point VPN that can be used in different ways. Here, we mean a VPN as in: the client will forward all its traffic trough an encrypted tunnel to the server.
 The server will apply NAT to the client's traffic so it will appear as if the client is browsing the web with the server's IP.
 
-The script supports both IPv4 and IPv6. Please check the [issues](https://github.com/angristan/wireguard-install/issues) for ongoing development, bugs and planned features!
+The script supports both IPv4 and IPv6. Please check the [issues](https://github.com/gap579137/wireguard-install/issues) for ongoing development, bugs and planned features!
 
-WireGuard does not fit your environment? Check out [openvpn-install](https://github.com/angristan/openvpn-install).
+WireGuard does not fit your environment? Check out [openvpn-install](https://github.com/gap579137/openvpn-install).
 
 ## Requirements
 
@@ -27,7 +27,7 @@ Supported distributions:
 Download and execute the script. Answer the questions asked by the script and it will take care of the rest.
 
 ```bash
-curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh
+curl -O https://raw.githubusercontent.com/gap579137/wireguard-install/master/wireguard-install.sh
 chmod +x wireguard-install.sh
 ./wireguard-install.sh
 ```
