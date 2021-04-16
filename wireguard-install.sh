@@ -306,7 +306,7 @@ function newClient() {
 	echo "[Interface]
 	PrivateKey = ${CLIENT_PRIV_KEY}
 	Address = ${CLIENT_WG_IPV4}/32,${CLIENT_WG_IPV6}/128
-	DNS = ${CLIENT_DNS_1},${CLIENT_DNS_2}
+	DNS = 10.101.10.1
 
 	[Peer]
 	PublicKey = ${SERVER_PUB_KEY}
